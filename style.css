@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    padding: 40px;
+    background-color:beige;
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 3px black;
+}
+.buttons
+{
+    display: flex;
+    border-radius: 10px;
+    gap: 10px;
+}
+button{
+    height: 20px;
+    width: 50px;
+    color: white;
+    background-color:black;
+    gap: 10px;
+    border-radius: 15px;
+}
+button :hover{
+    background-color:tomato;
+    color:white;
+}
+
+
